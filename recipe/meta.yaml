@@ -1,5 +1,5 @@
 {% set name = "collections-undo" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/collections-undo-{{ version }}.tar.gz
-  sha256: 45429f7218b5f289e5dddce5c4834221dcf98b38f4803956a51e2bcdf2bfef6e
+  sha256: b161f628510f64fbe2889c35b397553320e6efe7dd106408d3b069affede3ac4
 
 build:
   noarch: python
